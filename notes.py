@@ -24,5 +24,7 @@ if __name__ == "__main__":
             os.system("vim "+ NOTES_DIR + "/" + sys.argv[2])
         elif sys.argv[1] == "-h":
             print_help()
+        elif sys.argv[1] in os.listdir(NOTES_DIR):
+            os.system("cat "+ NOTES_DIR + "/" + sys.argv[1])
     except:
         print_help()
