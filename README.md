@@ -10,3 +10,4 @@ notes <new note>            Creates new note
 notes -e <existing note>    Edit note
 notes -d <existing note>    Delete note
 
+Test
