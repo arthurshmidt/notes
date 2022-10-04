@@ -13,11 +13,11 @@ def remove_dot_notes(file_name):
     return words[0]
 
 def print_help():
-    print("notes <no arguments>         // list notes")
-    print("notes -l                     // Lists notes")
-    print("notes -d <note>              // delete note")
-    print("notes -e <editfile>          // edits note")
-    print("notes -h                     // list help")
+    print("notes <no arguments>         List notes")
+    print("notes -l                     Lists notes")
+    print("notes -d <note>              Delete note")
+    print("notes -e <editfile>          Edits note")
+    print("notes -h                     List help")
 
 if __name__ == "__main__":
     try:
