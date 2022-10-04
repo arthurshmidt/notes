@@ -17,7 +17,6 @@ def print_help():
     print("notes -l                     // Lists notes")
     print("notes -d <note>              // delete note")
     print("notes -e <editfile>          // edits note")
-    print("notes -s                     // select note")
     print("notes -h                     // list help")
 
 if __name__ == "__main__":
